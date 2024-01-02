@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Modern C++ Code",
+	"Description": "Testing modern C++ features with UE code",
+	"Category": "Other",
+	"CreatedBy": "Rogerio Gasi",
+	"CreatedByURL": "rgasi@acm.org",
+	"DocsURL": "https://github.com/hodor/ue-modern-cpp",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CPP11",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+				{
+			"Name": "CPP17",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "CPP20",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "CPP23",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
