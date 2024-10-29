@@ -9,12 +9,12 @@ public class CPP20 : ModuleRules
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		IWYUSupport = IWYUSupport.Full;
-        bLegacyPublicIncludePaths = false;
+        	bLegacyPublicIncludePaths = false;
 		
 		PublicIncludePaths.Add(Path.Combine(ModuleDirectory, "Public"));
-        PrivateIncludePaths.Add(Path.Combine(ModuleDirectory, "Private"));
+        	PrivateIncludePaths.Add(Path.Combine(ModuleDirectory, "Private"));
 
-        PrivateDependencyModuleNames.AddRange(
+        	PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
 				"Core",
@@ -22,7 +22,6 @@ public class CPP20 : ModuleRules
 				"Engine",
 				"CPP11",
 				"CPP17"
-            }
-			);
+		        });
 	}
 }
