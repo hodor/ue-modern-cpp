@@ -7,12 +7,12 @@ public class CPP17 : ModuleRules
 {
 	public CPP17(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-        IWYUSupport = IWYUSupport.Full;
-        bLegacyPublicIncludePaths = false;
-		
+			PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+	        IWYUSupport = IWYUSupport.Full;
+	        bLegacyPublicIncludePaths = false;
+			
 		PublicIncludePaths.Add(Path.Combine(ModuleDirectory, "Public"));
-        PrivateIncludePaths.Add(Path.Combine(ModuleDirectory, "Private"));
+        	PrivateIncludePaths.Add(Path.Combine(ModuleDirectory, "Private"));
 
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
@@ -21,7 +21,6 @@ public class CPP17 : ModuleRules
 				"CoreUObject",
 				"Engine",
 				"CPP11"
-            }
-			);
+    			});
 	}
 }
