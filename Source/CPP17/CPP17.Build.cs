@@ -7,7 +7,7 @@ public class CPP17 : ModuleRules
 {
 	public CPP17(ReadOnlyTargetRules Target) : base(Target)
 	{
-			PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 	        IWYUSupport = IWYUSupport.Full;
 	        bLegacyPublicIncludePaths = false;
 			
