@@ -8,13 +8,13 @@ public class CPP23 : ModuleRules
 	public CPP23(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;	
-        IWYUSupport = IWYUSupport.Full;
-        bLegacyPublicIncludePaths = false;
+	        IWYUSupport = IWYUSupport.Full;
+	        bLegacyPublicIncludePaths = false;
 
 		PublicIncludePaths.Add(Path.Combine(ModuleDirectory, "Public"));
-        PrivateIncludePaths.Add(Path.Combine(ModuleDirectory, "Private"));
+        	PrivateIncludePaths.Add(Path.Combine(ModuleDirectory, "Private"));
 
-        PrivateDependencyModuleNames.AddRange(
+	        PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
 				"Core",
@@ -23,7 +23,6 @@ public class CPP23 : ModuleRules
 				"CPP11",
 				"CPP17",
 				"CPP20"
-            }
-			);
+			});
 	}
 }
